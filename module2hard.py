@@ -1,4 +1,4 @@
-def number_divisors(number):            #Функция которая находит все простые делители числа (1 - не простое))))
+def number_divisors(number):            #Функция которая находит все делители числа (кроме 1)
     list_of_divisors = []
     for i in range(2, number + 1):
         if number % i == 0:
